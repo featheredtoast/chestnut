@@ -9,11 +9,10 @@
             [ancient-clj.core :as ancient])
   (:import java.io.Writer))
 
-(def default-project-deps '[[org.clojure/clojure "1.8.0"]
-                            [org.clojure/clojurescript "1.9.854" :scope "provided"]
-                            [com.cognitect/transit-clj "0.8.300"]
+(def default-project-deps '[[org.clojure/clojure "1.10.0"]
+                            [org.clojure/clojurescript "1.10.439" :scope "provided"]
+                            [com.cognitect/transit-clj "0.8.313"]
                             [ring "1.6.2"]
-                            [javax.xml.bind/jaxb-api "2.3.1"]
                             [ring/ring-defaults "0.3.1"]
                             [bk/ring-gzip "0.2.1"]
                             [radicalzephyr/ring.middleware.logger "0.6.0"]
